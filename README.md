@@ -105,11 +105,9 @@ Rating categories are standardized across datasets to ensure consistency between
 
 For the baseline transition matrix $P$, the cumulative probability of default within $n$ years, given an initial credit rating $i$, is
 
-$$
-\mathbb{P}(\tau_D \leq n \mid R_0=i)
-=
-(P^n)_{iD}
-$$
+```math
+\mathbb{P}(\tau_D \leq n \mid R_0=i) = (P^n)_{iD}
+```
 
 where $\tau_D$ represents the first time the process enters the default state.
 
