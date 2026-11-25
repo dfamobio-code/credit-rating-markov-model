@@ -125,13 +125,7 @@ Monte Carlo simulations are used to generate possible future credit rating traje
 
 The empirical cumulative probability of default is calculated as
 
-$$
-\widehat{PD}(n)
-=
-\frac{1}{N}
-\sum_{k=1}^{N}
-\mathbf{1}_{\{\tau_D^{(k)} \leq n\}}
-$$
+$$\widehat{PD}(n) = \frac{1}{N}\sum_{k=1}^{N}\mathbf{1}_{\{\tau_D^{(k)} \leq n\}}$$
 
 where $N$ is the number of simulated paths.
 
